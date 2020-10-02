@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-
+import Total from './Total/Total'
 // Normalizes string as a slug - a string that is safe to use
 // in both URLs and html attributes
 import slugify from 'slugify';
-import USCurrencyFormat from './USCurrencyFormat';
+
 import './App.css';
 
-
+// This object will allow us to
+// easily convert numbers into US dollar values
+const USCurrencyFormat = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD'
+});
 
 class App extends Component {
   state = {
@@ -103,13 +108,8 @@ class App extends Component {
           <section className="main__summary">
             <h2>Your cart</h2>
             {summary}
-            <div className="summary__total">
-              <div className="summary__total__label">Total</div>
-              <div className="summary__total__value">
-                {USCurrencyFormat.format(total)}
-              </div>
-            </div>
-           </section>
+            <Total total={total} />
+          </section>
         </main>
       </div>
     );
