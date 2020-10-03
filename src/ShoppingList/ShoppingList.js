@@ -3,6 +3,7 @@ import '../App.css';
 // Normalizes string as a slug - a string that is safe to use
 // in both URLs and html attributes
 import slugify from 'slugify';
+import ItemName from '../ItemName/ItemName';
 
 // This object will allow us to
 // easily convert numbers into US dollar values
@@ -77,15 +78,9 @@ function ShoppingList({selected, updateFeature}){
         });
   
         return (
-          <fieldset className="feature" key={featureHash}>
-            <legend className="feature__name">
-              <h3>{feature}</h3>
-            </legend>
-            {options}
-          </fieldset>
+          <ItemName featureHash={featureHash} feature={feature} options={options}/>
         );
       });
-      
     return shop_list;
 }
 
