@@ -1,3 +1,4 @@
+[Live Version](https://thinkful-ei-shark.github.io/laptop-customizer-rylan/)
 # Laptop Customizer
 _Starter project for React course_
 
