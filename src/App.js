@@ -38,10 +38,7 @@ class App extends Component {
       <div className='App'>
         <Header />
         <main>
-          <form className="main__form">
-            <h2>Customize your laptop</h2>
-            <ShoppingList selected={this.state.selected} features={this.props.features} updateFeature={this.updateFeature}/>
-          </form>
+          <ShoppingList selected={this.state.selected} features={this.props.features} updateFeature={this.updateFeature}/>
           <ShoppingCart selected={this.state.selected}/>
         </main>
       </div>
