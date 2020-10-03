@@ -85,6 +85,7 @@ function ShoppingList({selected, updateFeature}){
           </fieldset>
         );
       });
+      
     return shop_list;
 }
 
