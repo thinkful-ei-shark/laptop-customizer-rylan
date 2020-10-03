@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/laptop-customizer-rylan/static/css/main.c8932f6a.chunk.css",
+    "main.js": "/laptop-customizer-rylan/static/js/main.a2acf33f.chunk.js",
+    "main.js.map": "/laptop-customizer-rylan/static/js/main.a2acf33f.chunk.js.map",
+    "runtime~main.js": "/laptop-customizer-rylan/static/js/runtime~main.9b1afedf.js",
+    "runtime~main.js.map": "/laptop-customizer-rylan/static/js/runtime~main.9b1afedf.js.map",
+    "static/js/2.ad7e6bd9.chunk.js": "/laptop-customizer-rylan/static/js/2.ad7e6bd9.chunk.js",
+    "static/js/2.ad7e6bd9.chunk.js.map": "/laptop-customizer-rylan/static/js/2.ad7e6bd9.chunk.js.map",
+    "index.html": "/laptop-customizer-rylan/index.html",
+    "precache-manifest.374f3167893ea24531725d5a9c047b84.js": "/laptop-customizer-rylan/precache-manifest.374f3167893ea24531725d5a9c047b84.js",
+    "service-worker.js": "/laptop-customizer-rylan/service-worker.js",
+    "static/css/main.c8932f6a.chunk.css.map": "/laptop-customizer-rylan/static/css/main.c8932f6a.chunk.css.map"
+  }
+}
